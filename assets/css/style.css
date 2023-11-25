@@ -114,6 +114,9 @@ a {
 .hero .body .info {
   width: 39%;
   margin-right: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero .info .title {
   font-size: 1.4rem;
