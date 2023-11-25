@@ -49,6 +49,12 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.line-clamp {
+  display: -webkit-box; /*Cách giới hạn dòng bằng dấu ...  */
+  -webkit-line-clamp: var(--line-clamp, 3);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 /* Header */
 .header.fixed {
   position: sticky;
